@@ -1,2 +1,4 @@
+from fonctions import *
 
-fct()
+max_fonction()
+min_fonction()

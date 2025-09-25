@@ -16,7 +16,7 @@ def affichage_fonction():
  return chaine
 print(affichage_fonction())
 
-# #Qst4
+#Qst4
 def sort_fonction():
     combiner.sort(key=lambda x:x[1])
     return combiner
@@ -32,7 +32,7 @@ tuple_fonction()
 def max_fonction():
   combiner.sort(key=lambda x:x[1],reverse=True)
   print(combiner[0])
-max_fonction()
+
 
 def min_fonction():
   combiner.sort(key=lambda x:x[1])
