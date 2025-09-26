@@ -1,8 +1,8 @@
 from db import produits,prix
 #Qst1
-
-combiner = list(zip(produits,prix))
-print(combiner)
+def List_function():
+  combiner = list(zip(produits,prix))
+  print(combiner)
 
 #Qst2
 def filter_fonction():
@@ -40,7 +40,7 @@ def min_fonction():
   
 #Qst8
 def bonus_fonction():
- produit_luxe = list(map(lambda x: f"{x[0]} cout {x[1]} DH(LUXE)\n" 
+ produit_luxe = list(map(lambda x: f"{x[0]} cout {x[1]} DH(LUXE)" 
                          if x[1] > 1000 
                          else f"{x[0]} coute {x[1]} DH",combiner))
  print(produit_luxe)
